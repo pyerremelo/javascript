@@ -1,6 +1,5 @@
-// var tempo = new Date ()
-// tempo = tempo.getHours ()
-tempo = 128
+var tempo = new Date ()
+tempo = tempo.getHours ()
 
 var hora = document.querySelector('div#hora')
 var corpo = document.getElementsByTagName('body')[0]
