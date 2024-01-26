@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira parte da atividade 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+
+    <section>
+        <form action="">
+            <label for="inasc">Ano de Nascimento</label>
+            <input type="number" name="nasc" id="inasc" min="1920" max="2024" required placeholder="Ex: 2006">
+
+            <br>
+
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="imas" checked>
+                <label for="imas">Masculino</label>
+
+                <input type="radio" name="sexo" id="ifem">
+                <label for="ifem">Feminino</label>
+            </fieldset>
+
+            <input type="submit" value="Enviar">
+
+            <div>
+                <p>Preencha os dados para avaliarmos</p>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Feito por Pyerre</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
