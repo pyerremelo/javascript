@@ -24,7 +24,7 @@ function calcular() {
         inicio = Number(inicio)
         limite = Number(limite)
 
-        if (inicio > 0 && limite > 0 && inicio > limite || inicio < 0 && limite < 0 && inicio > limite || inicio > 0 && limite < 0) {
+        if (inicio > 0 && limite > 0 && inicio > limite || inicio < 0 && limite < 0 && inicio > limite || inicio > 0 && limite < 0 || inicio == 0 && limite < 0 || inicio > 0 && limite == 0) {
             // Verificação de impossibilidade de calculo de tabuada conforme o descrito no IF, então aparecerá uma mensagem de erro
 
             alert('O número inicial da tabuada não pode ser maior que o limite. O inverso é possível. Por favor mude os valores.')
