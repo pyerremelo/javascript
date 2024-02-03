@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analizador de números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+
+    <section>
+        <p>Digite um número de 1 a 100 para ser adicionado</p>
+        <div>
+            <label for="inum">Digite um número</label>
+            <input type="number" name="num" id="inum">
+            <input type="button" value="Adicionar" onclick="adicionarDados()">
+        </div>
+
+        <select name="result" id="result" size="7"></select>
+
+        <input type="button" id="finalizar" value="Finalizar" onclick="apresentarDados()">
+
+        <div id="res">
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Feito por Pyerre</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
